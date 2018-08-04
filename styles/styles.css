@@ -1,0 +1,90 @@
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fa0066+0,2a0044+100 */
+  background: #fa0066; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #fa0066 0%, #2a0044 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #fa0066 0%,#2a0044 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #fa0066 0%,#2a0044 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa0066', endColorstr='#2a0044',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h1 {
+  color: #ffffff;
+  font-family: helvetica;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 5px;
+  color: #ffffff;
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.social {
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.social a {
+  opacity: 0.8;
+}
+
+.social a:hover {
+  opacity: 1;
+}
+
+.profile {
+  margin-left: 150px;
+  top: calc(50% - 100px);
+  display: block;
+  width: 450px;
+  position: absolute;
+  height: 200px;
+}
+
+.picture-container {
+  padding-right: 150px;
+  top: calc(50% - 220px);
+  width: 220px;
+  display: block;
+  position: absolute;
+  right: 0;
+  height: 200px;
+}
+
+.picture-container img {
+  border-radius: 50%;
+  transform: rotate(-40deg);
+  -webkit-box-shadow: 0px 0px 29px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 29px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 29px -8px rgba(0,0,0,0.75);
+}
+
+.circle2 {
+  position: relative;
+  top: -240px;
+  left: 40px;
+  z-index: -1;
+}
+
+.circle1 {
+  position: relative;
+  top: 260px;
+  left: -40px;
+  z-index: 3;
+}
