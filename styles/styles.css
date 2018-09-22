@@ -79,12 +79,12 @@ a {
   position: relative;
   top: -240px;
   left: 40px;
-  z-index: -1;
+  z-index: -1; /*apilar abajo*/
 }
 
 .circle1 {
   position: relative;
   top: 260px;
   left: -40px;
-  z-index: 3;
+  z-index: 3; /*apilar adelante*/
 }
